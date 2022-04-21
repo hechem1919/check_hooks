@@ -1,80 +1,85 @@
 export const moviesData = [
   {
-    id: Math.random(),
-    image:
-      'https://i.pinimg.com/originals/4d/ea/be/4deabeb03554cacdba17995886789005.jpg',
-    rating: 4,
-    name: "Devil's Mile",
-    date: '2014',
-    type: 'Action | Crime',
-    description:
-      "A relentlessly-paced hybrid of gritty crime thriller and Lovecraftian supernatural horror, The Devil's Mile follows a trio of kidnappers who take an ill-advised detour en route to deliver...",
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://static.cinemagia.ro/img/db/movie/00/69/88/once-upon-a-time-in-the-west-549264l.jpg',
-    rating: 5,
-    name: 'Once Upon A Time In The west',
-    date: '1968',
-    type: 'Western',
-    description:
-      'A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.',
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://i.pinimg.com/564x/37/bd/f8/37bdf8f405a30977959e112d6f48aec0.jpg',
-    rating: 4,
-    name: 'Taxi Driver',
-    date: '1976',
-    type: 'Crime | Drama',
-    description:
-      'A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.',
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://i.pinimg.com/564x/78/55/ac/7855acc7002b1ae619b1edaa4b595df3.jpg',
-    rating: 4,
-    name: 'Mad Max',
-    date: '1979',
-    type: 'Action | Adventure',
-    description:
-      'In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.',
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://mir-s3-cdn-cf.behance.net/project_modules/disp/b1330b14202071.5627f4dc23472.jpg',
-    rating: 3,
-    name: 'Little Miss Sunshine',
-    date: '2006',
-    type: 'Comedy | Drama',
-    description:
-      'A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.',
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://i.pinimg.com/564x/32/49/1c/32491ccd2f4ce577dea8871988c5828c.jpg',
-    rating: 5,
-    name: 'KILL BILL: VOL. 1',
-    date: '2003',
-    type: 'Action',
-    description:
-      "The lead character, called 'The Bride,' was a member of the Deadly Viper Assassination Squad, led by her lover 'Bill.'The Bride' decided to escape her life as a killer.",
-    details: 'https://www.imdb.com/title/tt0266697/plotsummary?ref_=tt_stry_pl',
-  },
-   {
-     id: Math.random(),
-     image:
-       "https://i.pinimg.com/originals/3e/f1/ba/3ef1baaaceb5a95c4f57a7cb2393b39d.jpg",
-     rating: 5,
-     name: "The Wolf Of Wall Street",
-     date: "2013",
-     type: " Biography | Crime | Drama  ",
-     description:
-       "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
-   }
-];
+   
+        id: Math.random(),
+        image: "https://image.tmdb.org/t/p/w500/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
+        rating: 5,
+        name: "Star Wars: The Rise Of Skywalker",
+        description:
+          "The surviving members of the resistance face the First Order once again",
+          trailer:"https://youtu.be/8Qn_spdM5Zg"
+      },
+      {
+        id: Math.random(),
+        image: "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+        rating: 3.5,
+        name: "Avengers: Infinity War",
+        description:
+          "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos.",
+          trailer:"https://youtu.be/6ZfuNTqbHE8"
+      },
+      {
+        id: Math.random(),
+        image: "https://image.tmdb.org/t/p/w500/pjeMs3yqRmFL3giJy4PMXWZTTPa.jpg",
+        rating: 4,
+        name: "Frozen II",
+        description:
+          "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land.",
+          trailer:"https://youtu.be/Zi4LMpSDccc"
+      },
+      {
+        id: Math.random(),
+        image:
+          "https://images-na.ssl-images-amazon.com/images/I/51oDs32SXlL._AC_.jpg",
+        rating: 2.5,
+        name: "Fantastic Beasts and Where to Find Them",
+        description:
+          "The adventures of writer Newt Scamander in New York's secret community of wizards",
+          trailer:"https://youtu.be/ViuDsy7yb8M"
+      },
+      {
+        id: Math.random(),
+        image:
+          "https://i.ibb.co/FDGqCmM/papers-co-ag74-interstellar-wide-space-film-movie-art-33-iphone6-wallpaper.jpg",
+        rating: 5,
+        name:"Interstellar",
+        description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        trailer:"https://youtu.be/UDVtMYqUAyw"
+      },
+      
+          {  id: Math.random(),
+          image:"https://fr.web.img5.acsta.net/medias/nmedia/18/91/71/02/20159308.jpg",
+          rating:5,
+          name:"Ce que le jour doit à la nuit",
+          description:"Confié à un oncle pharmacien, dans un village de l'Oranais, le jeune garçon s'intègre à la communauté pied-noire. Noue des amitiés indissolubles, françaises, juives : « les doigts de la fourche », comme on les appelle. Et le bonheur s'appelle Émilie, une « princesse » que les jeunes gens se disputent.",
+          trailer:"https://youtu.be/T6bWUs1ilrw"},
+  
+        { id: Math.random(),
+          image:"https://fr.web.img4.acsta.net/medias/nmedia/18/85/35/32/19935312.jpg",
+          rating:5, 
+          name:"Underworld",
+          description:"Depuis des siècles Lycans et Vampires se livrent une bataille sans merci. Mais les deux races sont à l’aube d’une ère nouvelle car les humains, qui ont récemment découvert leur existence, décident de cesser leurs conflits internes pour s’engager ensemble dans la lutte contre ce qu’ils considèrent comme des fléaux. Sélène s’attire la convoitise de l’armée et des scientifiques. Une traque incessante commence alors contre la plus redoutable des vampires.",
+          trailer:"https://youtu.be/2_IoL7g5Ub8"},
+  
+        {  id: Math.random(),
+          image:"https://fr.web.img2.acsta.net/c_310_420/pictures/20/01/29/10/48/2864793.jpg",
+          rating:4.5,
+          name:"ISI & OSSI",
+          description:"Bien décidée à réaliser son rêve, la fille d'un milliardaire forme une alliance originale avec le fils d'une mère célibataire lui aussi résolu à réaliser le sien.",
+          trailer:"https://youtu.be/BA6NfzG0Ay8"},
+        
+        {  id: Math.random(),
+          name:"To All The Boys: Always and Forever",
+          description:"Le troisième volet de la trilogie À tous les garçons que j'ai aimés.Tout a commencé avec une lettre d'amour, puis s'est poursuivi avec une nouvelle romance. Et maintenant, que réserve l'avenir à Lara Jean et Peter ?",
+          image:"https://fr.web.img3.acsta.net/c_310_420/pictures/21/01/20/10/27/2398485.jpg",
+          rating:3.5,
+          trailer:"https://youtu.be/2jPdejek5QA" },
+        
+        {  id: Math.random(),
+          name:"The kissing Booth",
+          description:"Elle et Lee sont amis depuis leur plus tendre enfance. Ils partagent tout, et n'ont aucun secret l'un pour l'autre. Jusqu'au jour où Elle échange un baiser avec Flynn, le propre frère de Lee, au cours d'une soirée...",
+          image:"https://fr.web.img3.acsta.net/c_310_420/pictures/18/05/04/15/03/2133793.jpg",
+          rating:3,
+          trailer:"https://youtu.be/7bfS6seiLhk" }
+  
+  ];
